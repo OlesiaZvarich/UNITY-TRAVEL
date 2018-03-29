@@ -1,0 +1,56 @@
+@import "fonts";
+
+.main-gallery {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 246px;
+      height: 146px;
+    }
+  }
+}
+
+
+
+.main-gallery {
+  padding: 40px 0;
+  ul {
+    li {
+      &:nth-child(9) {
+        position: relative;
+      }
+    }
+  }
+}
+
+#moreGallery {
+  position: absolute;
+  width: 246px;
+  height: 146px;
+  opacity: 0.8;
+  margin-top: -146px;
+  background: linear-gradient(to right, #36769d, #77a763);
+  color: #ffffff;
+  font-family: 'osnova_pronormal';
+  font-size: 39px;
+  text-align: center;
+  line-height: 146px;
+  cursor: pointer;
+
+  }
+
+.footer-gallery {
+  padding-bottom: 43px;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 246px;
+      height: 146px;
+    }
+  }
+}

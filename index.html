@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unity-travel</title>
+    <link rel="stylesheet" href="build/styles.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-main">
+        <header>
+            <div class="container-header">
+                <div class="logo ">
+                    <img src="assets/img/icon/logo.png" alt="logo">
+                    <div>unity<br><span>travel</span></div>
+                </div>
+                <div class="menu">
+                    <div class="contacts">
+                        <ul>
+                            <li><a href="#"><img src="assets/img/icon/tel_grey.png" alt="phone">+38 (099) 223-11-84</a></li>
+                            <li>Одесса, Люфстдорфская дорога, 144</li>
+                            <li><button>Оставить заявку</button></li>
+                        </ul>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="#"><img src="assets/img/icon/star_green.png" alt="flag">Эксклюзивные туры</a></li>
+                            <li><a href="#"><img src="assets/img/icon/search.png" alt="search">Поиск тура</a></li>
+                            <li><a href="#">Путеводитель</a></li>
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Компания</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="slider">
+                <div class="slider-img"></div>
+                <div id="topBar" class="sticky-topBar">
+                    <div class="container-top-bar top-bar-style">
+                        <div class="selectTour">
+                            <span><img src="assets/img/flags/Sri-Lanka.png" alt="flag"></span>
+                            <a href="#">Шри-ланка</a>
+                        </div>
+                        <div>Club Koggala Village</div>
+                        <div><a href="#"><span><img src="assets/img/icon/star_white.png" alt="flag"></span>Эксклюзив!</a></div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <div class="modal-btn">
+                                        <button>Описание тура</button>
+                                    </div>
+                                </li>
+                                <li><a href="#">Галлерея</a></li>
+                                <li><a href="#">Программа</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-content ">
+                <div class="row">
+                    <div class="col-md-12 hidden-lg ">
+                        <div  class="sticky-sideBar sideBar">
+                            <h4><span><img src="assets/img/flags/Sri-Lanka.png" alt="flag"></span>Шри Ланка</h4>
+                            <div class="detail-for-travel">
+                                <div class="part-1">
+                                    <div class="type-of-travel ">
+                                        <ul>
+                                            <li><img src="assets/img/icon/type_beach.png" alt="beach">пляжный тур</li>
+                                            <li><img src="assets/img/icon/transport_plane.png" alt="plan">авиа</li>
+                                        </ul>
+                                    </div>
+                                    <form>
+                                        <div class="who">
+                                            <h5>кто поедет</h5>
+                                            <select name="adult">
+                                                <option value="1" selected>1 взрослый</option>
+                                                <option value="2">2 взрослых</option>
+                                            </select>
+                                            <select name="children">
+                                                <option value="without" selected>без детей</option>
+                                                <option value="1">1 ребенок</option>
+                                                <option value="2">2 ребенка</option>
+                                            </select>
+                                        </div>
+                                        <div class="duration">
+                                            <h5>Длительность</h5>
+                                            <button><span>5</span><br> ночей</button>
+                                            <button><span>7</span><br> ночей</button>
+                                            <button><span>10</span><br> ночей</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="part-2">
+                                    <div class="food">
+                                        <h5>Питание</h5>
+                                        <ul>
+                                            <li>HB</li>
+                                            <li>завтрак и ужин</li>
+                                        </ul>
+                                    </div>
+                                    <div class="start">
+                                        <h5>Отправление</h5>
+                                        <span>каждую субботу и воскресенье</span>
+                                    </div>
+                                    <div class="included-in-the-ticket">
+                                        <h5>Входит в путевку</h5>
+                                        <ul>
+                                            <li>авиа</li>
+                                            <li>проживание</li>
+                                            <li>страховка</li>
+                                            <br>
+                                            <li>необходимо оформление визы!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="total-price">
+                                <span>от <span>32 325</span> грн</span><br>
+                                <span>за человека на 5 ночей</span>
+                            </div>
+                            <button class="orderTour">Заказать тур</button>
+                            <button class="setAside">Отложить</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="main-content">
+                            <p class="about">
+                                Отель цена–качество. Удобные номера без излишеств. Большая территория. Первая линия. Широкий пляж. Отель в 2012 году прошел полную реновацию.
+                                В 2013 году отреставрированы бунгало, которые находятся ближе к океану. Относится к сети Koggala Beach Resort, куда входят отели Club Koggala
+                                Village 3*, Koggala Beach Hotel 3*+ и Long Beach Resort 4*. Можно пользоваться всей территорией этих трех отелей. Дискотека в отеле Koggala
+                                Beach Hotel 3*+, тренажерный зал в отеле Long Beach Resort 4*.
+                            </p>
+                            <div class="main-gallery">
+                                <ul class="gallery-list">
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery01.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery02.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery03.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery04.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery05.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery06.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery07.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery08.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery09.jpg" alt="img"></a>
+                                        <div id="moreGallery">18</div>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery10.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery11.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery12.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery13.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery14.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery15.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery16.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery17.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery18.jpg" alt="img" style="display: none"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="programme">
+                                <h3>1 день</h3>
+                                <p>
+                                     Вылет в Хургаду (а/к МАУ). Встреча в Хургаде с принимающей стороной. Групповой трансфер из аэропорта в отель. Размещение в номере.
+                                    По приезду Вы прослушаете информацию о достопримечательностях Египта и возможных экскурсиях и круизах. Свободное время. Ночь в отеле. 
+                                </p>
+                                <h3>2 день</h3>
+                                <p>
+                                     Завтрак в отеле. После завтрака у Вас свободное время для отдыха на пляже и развлечений. Хургада славится своим пляжным отдыхом,
+                                    так как каждый отель предоставляет все условия для комфортного размещения для всех без исключения. Во многих отелях предоставляется русскоязычная
+                                    анимация для взрослых и детей, спа-услуги, многие экскурсии по стране, дайвинг-центры со всем оборудованием, хороший сервис и забота о каждом туристе.
+                                    Изюминкой всех курортных городов Египта считается дайвинг.
+                                </p>
+                            </div>
+                            <div class="footer-gallery sticky-stopper">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery01.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery02.jpg" alt="img"></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/gallery/gallery03.jpg" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 hidden-md ">
+                        <div  class="sticky-sideBar sideBar">
+                            <h4><span><img src="assets/img/flags/Sri-Lanka.png" alt="flag"></span>Шри Ланка</h4>
+                            <div class="detail-for-travel">
+                                <div class="part-1">
+                                    <div class="type-of-travel ">
+                                        <ul>
+                                            <li><img src="assets/img/icon/type_beach.png" alt="beach">пляжный тур</li>
+                                            <li><img src="assets/img/icon/transport_plane.png" alt="plan">авиа</li>
+                                        </ul>
+                                    </div>
+                                    <form>
+                                        <div class="who">
+                                            <h5>кто поедет</h5>
+                                            <select name="adult">
+                                                <option value="1" selected>1 взрослый</option>
+                                                <option value="2">2 взрослых</option>
+                                            </select>
+                                            <select name="children">
+                                                <option value="without" selected>без детей</option>
+                                                <option value="1">1 ребенок</option>
+                                                <option value="2">2 ребенка</option>
+                                            </select>
+                                        </div>
+                                        <div class="duration">
+                                            <h5>Длительность</h5>
+                                            <button><span>5</span><br> ночей</button>
+                                            <button><span>7</span><br> ночей</button>
+                                            <button><span>10</span><br> ночей</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="part-2">
+                                    <div class="food">
+                                        <h5>Питание</h5>
+                                        <ul>
+                                            <li>HB</li>
+                                            <li>завтрак и ужин</li>
+                                        </ul>
+                                    </div>
+                                    <div class="start">
+                                        <h5>Отправление</h5>
+                                        <span>каждую субботу и воскресенье</span>
+                                    </div>
+                                    <div class="included-in-the-ticket">
+                                        <h5>Входит в путевку</h5>
+                                        <ul>
+                                            <li>авиа</li>
+                                            <li>проживание</li>
+                                            <li>страховка</li>
+                                            <br>
+                                            <li>необходимо оформление визы!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="total-price">
+                                <span>от <span>32 325</span> грн</span><br>
+                                <span>за человека на 5 ночей</span>
+                            </div>
+                            <button class="orderTour">Заказать тур</button>
+                            <button class="setAside">Отложить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="build/scripts.min.js"></script>
+</body>
+</html>
